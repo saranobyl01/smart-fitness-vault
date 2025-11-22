@@ -15,7 +15,7 @@ const Index = () => {
       <Navbar />
       
       {/* Hero Section - Modern Split Design */}
-      <section className="relative pt-24 pb-16 px-4 overflow-hidden">
+      <section className="relative pt-20 pb-12 md:pt-24 md:pb-16 px-4 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-background" />
         <div 
           className="absolute inset-0 opacity-5"
@@ -57,20 +57,20 @@ const Index = () => {
                 </Link>
               </div>
               
-              <div className="flex items-center gap-8 mt-12">
-                <div>
-                  <p className="text-3xl font-bold text-primary">99.8%</p>
-                  <p className="text-sm text-muted-foreground">Purity Grade</p>
+              <div className="grid grid-cols-3 gap-4 md:flex md:items-center md:gap-8 mt-12">
+                <div className="text-center md:text-left">
+                  <p className="text-2xl md:text-3xl font-bold text-primary">99.8%</p>
+                  <p className="text-xs md:text-sm text-muted-foreground">Purity Grade</p>
                 </div>
-                <div className="h-12 w-px bg-border" />
-                <div>
-                  <p className="text-3xl font-bold text-primary">10K+</p>
-                  <p className="text-sm text-muted-foreground">Researchers</p>
+                <div className="hidden md:block h-12 w-px bg-border" />
+                <div className="text-center md:text-left">
+                  <p className="text-2xl md:text-3xl font-bold text-primary">10K+</p>
+                  <p className="text-xs md:text-sm text-muted-foreground">Researchers</p>
                 </div>
-                <div className="h-12 w-px bg-border" />
-                <div>
-                  <p className="text-3xl font-bold text-primary">24/7</p>
-                  <p className="text-sm text-muted-foreground">Support</p>
+                <div className="hidden md:block h-12 w-px bg-border" />
+                <div className="text-center md:text-left">
+                  <p className="text-2xl md:text-3xl font-bold text-primary">24/7</p>
+                  <p className="text-xs md:text-sm text-muted-foreground">Support</p>
                 </div>
               </div>
             </div>

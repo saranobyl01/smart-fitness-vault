@@ -17,7 +17,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
   };
 
   return (
-    <div className="group bg-card rounded-xl overflow-hidden border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/20 slide-up">
+    <div className="group bg-card rounded-xl overflow-hidden border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/20 slide-up h-full flex flex-col">
       <div className="aspect-square overflow-hidden bg-background">
         <img
           src={product.image}
@@ -25,11 +25,11 @@ export const ProductCard = ({ product }: ProductCardProps) => {
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
       </div>
-      <div className="p-6">
-        <span className="text-xs font-medium text-primary">{product.category}</span>
-        <h3 className="text-xl font-semibold mt-2 mb-2">{product.name}</h3>
-        <p className="text-sm text-muted-foreground mb-4 line-clamp-2">{product.description}</p>
-        <div className="flex items-center justify-between">
+      <div className="p-6 flex flex-col flex-1">
+        <span className="text-xs font-medium text-primary mb-2">{product.category}</span>
+        <h3 className="text-xl font-semibold mb-3">{product.name}</h3>
+        <p className="text-sm text-muted-foreground mb-6 line-clamp-2">{product.description}</p>
+        <div className="flex items-center justify-between mt-auto pt-4 border-t border-border/50 gap-4">
           <span className="text-2xl font-bold text-primary">${product.price}</span>
           <Button
             onClick={handleAddToCart}

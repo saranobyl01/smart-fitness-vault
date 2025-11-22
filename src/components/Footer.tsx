@@ -38,7 +38,7 @@ export const Footer = () => {
             <p className="text-sm text-muted-foreground mb-3">
               Get updates on new products and research.
             </p>
-            <div className="flex gap-2">
+            <div className="flex flex-col gap-2">
               <input
                 type="email"
                 placeholder="Enter email"
