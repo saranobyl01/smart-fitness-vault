@@ -7,7 +7,7 @@ export const Footer = () => {
       <div className="container mx-auto px-4 sm:px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <img src={logo} alt="SmartFitnessBulk" className="h-12 mb-4" />
+            <img src={logo} alt="SmartFitnessBulk" className="h-28 mb-4" />
             <p className="text-sm text-muted-foreground">
               Premium research-grade peptides for advanced fat loss and performance optimization.
             </p>
