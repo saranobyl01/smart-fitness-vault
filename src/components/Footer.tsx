@@ -17,19 +17,13 @@ export const Footer = () => {
             <h4 className="font-semibold mb-4">Products</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><Link to="/products" className="hover:text-primary transition-colors">All Products</Link></li>
-              <li><Link to="/products?category=GLP-1" className="hover:text-primary transition-colors">GLP-1 Peptides</Link></li>
-              <li><Link to="/products?category=Fat Loss" className="hover:text-primary transition-colors">Fat Loss</Link></li>
-              <li><Link to="/products?category=Growth Hormone" className="hover:text-primary transition-colors">Growth Hormone</Link></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Support</h4>
+            <h4 className="font-semibold mb-4">Legal</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#" className="hover:text-primary transition-colors">Research Guidelines</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Lab Testing</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Shipping Info</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Contact Us</a></li>
+              <li><Link to="/terms" className="hover:text-primary transition-colors">Terms & Conditions</Link></li>
             </ul>
           </div>
 
