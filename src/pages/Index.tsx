@@ -34,7 +34,7 @@ const Index = () => {
                 <span className="text-sm text-primary font-medium">Premium Research Grade</span>
               </div>
               
-              <h1 className="text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
                 Advanced
                 <span className="block text-primary mt-2">Peptide Research</span>
               </h1>
