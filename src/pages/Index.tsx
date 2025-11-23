@@ -100,25 +100,25 @@ const Index = () => {
       {/* Stats Bar */}
       <section className="py-8 px-4 bg-card/30 border-y border-border reveal">
         <div className="container mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
             <div className="text-center hover:transform hover:scale-105 transition-transform duration-300">
               <FlaskConical className="h-8 w-8 text-primary mx-auto mb-2" />
-              <p className="text-2xl font-bold mb-1">Lab Tested</p>
+              <p className="text-xl md:text-2xl font-bold mb-1">Lab Tested</p>
               <p className="text-sm text-muted-foreground">Third-party verified</p>
             </div>
             <div className="text-center hover:transform hover:scale-105 transition-transform duration-300">
               <ShieldCheck className="h-8 w-8 text-primary mx-auto mb-2" />
-              <p className="text-2xl font-bold mb-1">Guaranteed</p>
+              <p className="text-xl md:text-2xl font-bold mb-1">100%</p>
               <p className="text-sm text-muted-foreground">Quality assured</p>
             </div>
             <div className="text-center hover:transform hover:scale-105 transition-transform duration-300">
               <Clock className="h-8 w-8 text-primary mx-auto mb-2" />
-              <p className="text-2xl font-bold mb-1">Fast Shipping</p>
+              <p className="text-xl md:text-2xl font-bold mb-1">Express Shipping</p>
               <p className="text-sm text-muted-foreground">2-3 day delivery</p>
             </div>
             <div className="text-center hover:transform hover:scale-105 transition-transform duration-300">
               <Users className="h-8 w-8 text-primary mx-auto mb-2" />
-              <p className="text-2xl font-bold mb-1">Support</p>
+              <p className="text-xl md:text-2xl font-bold mb-1">Support</p>
               <p className="text-sm text-muted-foreground">24/7 assistance</p>
             </div>
           </div>
